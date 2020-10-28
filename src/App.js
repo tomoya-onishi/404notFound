@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import NotFound from './images/Scarecrow.png';
 import './App.css';
+const style = {
+  width: "539.22px",
+  height: "447.43px",
+  top: "265px",
+  left: "77px",
+  backgroundImage: `url(${NotFound})`
+};
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+function App(){
+  return(
+    <div>
+      <header>
+        <img style={style}/>
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
