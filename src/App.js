@@ -1,21 +1,14 @@
 import NotFound from './images/Scarecrow.png';
 import './App.css';
-const style = {
-  width: "539.22px",
-  height: "447.43px",
-  top: "265px",
-  left: "77px",
-  backgroundImage: `url(${NotFound})`
-};
-
-function App(){
-  return(
-    <div>
-      <header>
-        <img style={style}/>
-      </header>
+import React,{Component} from 'react';
+import { isCompositeComponent } from 'react-dom/test-utils';
+class App extends Component {
+  render(){
+    return <div>
+        <p>404 NOT FOUND</p>
+        <img src={NotFound}/>
     </div>
-  )
+  }
 }
 
 export default App;
