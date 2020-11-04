@@ -1,4 +1,4 @@
-p {
+header {
   font-family: Inconsolata;
   font-size: 24px;
   font-style: normal;
@@ -7,12 +7,55 @@ p {
   letter-spacing: -0.08em;
   text-align: left;
   position: absolute;
-  width: 133px;
+  width: 200px;
   height: 25px;
   left: 77px;
   top: 40px;
 }
+h1 {
+  position: absolute;
+  width: 586px;
+  height: 190px;
+  left: 735px;
+  top: 265px;
 
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+h2 {
+  position: absolute;
+  width: 381px;
+  height: 108px;
+  left: 736px;
+  top: 491px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+
+  color: #4F4F4F;
+}
+button{
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  left: 740px;
+  top: 663px;
+
+  /* Gray 1 */
+  color: #FFFFFF;
+  background: #333333;
+}
 img{
   position: absolute;
   left: 5.35%;
@@ -22,6 +65,23 @@ img{
   height: 447.4263916015625px;
   width: 539.2236938476562px;
   border-radius: 0px;
-
 }
+p{
+  position: absolute;
+  width: 130px;
+  height: 21px;
+  left: 783px;
+  top: 687px;
 
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
