@@ -1,4 +1,4 @@
-header {
+.pcHeader {
   font-family: Inconsolata;
   font-size: 24px;
   font-style: normal;
@@ -12,7 +12,7 @@ header {
   left: 77px;
   top: 40px;
 }
-h1 {
+.pcH1 {
   position: absolute;
   width: 586px;
   height: 190px;
@@ -27,7 +27,7 @@ h1 {
   letter-spacing: -0.035em;
   color: #333333;
 }
-h2 {
+.pcH2 {
   position: absolute;
   width: 381px;
   height: 108px;
@@ -45,7 +45,7 @@ h2 {
 
   color: #4F4F4F;
 }
-button{
+.pcButton{
   position: absolute;
   width: 216px;
   height: 68px;
@@ -56,7 +56,7 @@ button{
   color: #FFFFFF;
   background: #333333;
 }
-img{
+.pcImg{
   position: absolute;
   left: 5.35%;
   right: 57.21%;
@@ -66,22 +66,114 @@ img{
   width: 539.2236938476562px;
   border-radius: 0px;
 }
-p{
+.pcFooter{
   position: absolute;
-  width: 130px;
-  height: 21px;
-  left: 783px;
-  top: 687px;
+  width: 300px;
+  height: 17px;
+  left: 50%;
+  top: 1024px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #333333;
+}
+
+.smartHeader{
+  position: absolute;
+  width: 200px;
+  height: 25px;
+  left: 24px;
+  top: 20px;
+
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+.smartH1{
+  position: absolute;
+  width: 350px;
+  height: 142px;
+  left: 24px;
+  top: 407px;
 
   font-family: Space Mono;
   font-style: normal;
   font-weight: bold;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+
+  /* Gray 1 */
+
+  color: #333333;
+}
+
+.smartH2{
+  position: absolute;
+  width: 328px;
+  height: 81px;
+  left: 23px;
+  top: 578px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+
+  color: #4F4F4F;
+}
+
+.smartImg{
+  position: absolute;
+  left: 11.73%;
+  right: 11.78%;
+  top: 11.49%;
+  bottom: 63.44%;
+  height: 238px;
+  width: 286.83px;
+}
+
+.smartButton{
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  left: 24px;
+  top: 726px;
+
+  /* Gray 1 */
+  color: #FFFFFF;
+  background: #333333;
+}
+
+.smartFooter{
+  position: absolute;
+  width: 300px;
+  height: 17px;
+  left: 75px;
+  top: 890px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 17px;
   /* identical to box height */
 
-  letter-spacing: -0.035em;
-  text-transform: uppercase;
-
-  color: #FFFFFF;
+  color: #333333;
 }
